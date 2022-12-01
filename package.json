@@ -1,0 +1,29 @@
+{
+  "name": "adventofcode-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:latest": "node index.js latestOnly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/widge/adventofcode-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/widge/adventofcode-2022/issues"
+  },
+  "homepage": "https://github.com/widge/adventofcode-2022#readme",
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0"
+  }
+}
