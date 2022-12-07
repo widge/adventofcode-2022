@@ -11,6 +11,11 @@ export const convertInputFileToCharArrayByLine = (filepath) =>
     .split('\n')
     .map((line) => line.split(''));
 
+export const isCharacterALetter = (char) => {
+  //handy hack to check for alpha chars
+  return char.toLowerCase() != char.toUpperCase();
+}
+
 export const formatDayString = (word) =>
   word.substring(0, 1).toUpperCase() +
   word.substring(1, 3) +
